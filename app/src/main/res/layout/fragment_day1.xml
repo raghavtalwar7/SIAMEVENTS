@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/task1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_rect_shape"
+                android:gravity="left"
+                android:padding="48dp"
+                android:text="DATE:\n13 September\nTIME:\n5:00 PM - 5:30 PM\nVENUE:\nAnna Auditorium\nDETAILS:\nAll the participants are requested to be on time and complete the pre-event formalities."
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/task2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_rect_shape"
+                android:gravity="left"
+                android:padding="48dp"
+                android:text="DATE:\n13 September\nTIME:\n5:30 PM - 7:00 PM\nVENUE:\nAnna Auditorium\nDETAILS:\nInaugration ceremony will take place and Math-a-thon will be declared OPEN! General flow and instructions for the Math-a-Thon will be given."
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/task3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_rect_shape"
+                android:gravity="left"
+                android:padding="48dp"
+                android:text="DATE:\n13 September\nTIME:\n7:15 PM - 7:45 PM\nVENUE:\nAnna Auditorium\nDETAILS:\nQuiz consisting of 60 questions will be held teamwise."
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/task4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_rect_shape"
+                android:gravity="left"
+                android:padding="48dp"
+                android:text="DATE:\n13 September\nTIME:\n8:15 PM - 8:30 PM\nVENUE:\nAnna Auditorium\nDETAILS:\nResults for round 1 will be declared and further instructions will be provided."
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
